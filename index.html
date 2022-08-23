@@ -188,6 +188,15 @@
                 <li class="footer-soc-item"><a href="" class="link footer-soc-link"><svg width="106px" height="60px"class="footer-soc"><use href="./images/symbol-defs.svg#icon-linkedin1" ></use></svg></a></li>
             </ul>
        </div>
+       <div class="footer-form">
+        <form>
+            <h2 class="footer-form-title">Підпишіться на розсилку</h2>
+            <div class="button-wrap">
+                <input type="email" placeholder="Email"  class="footer-input">
+                <button type="submit" class="footer-submit-btn"><span class="footer-submit-text"> Підписатися</span><svg width="24px" height="24px" class="submit"><use href="./images/symbol-defs.svg#icon-send"></use></svg></button>
+            </div>
+        </form>
+       </div>
     </div>
     </footer>
 
@@ -195,6 +204,34 @@
         <div class="mod-container is-hidden" data-modal>
             <div class="mod-window">
                <button class="mod-close-btn"><svg width="12px" height="12px" data-modal-close><use href="./images/symbol-defs.svg#icon-closeBtn-1"></use></svg></button>
+               <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
+               <form>
+                
+                <div class="modal-input-wrap">
+                    <label for="name" ><span class="modal-label">Ім'я</span></label>
+                    <input type="text" class="input-mod" name="name" id="name">
+                    <svg class="icon-person" width="18px" height="18px"><use href="./images/symbol-defs.svg#icon-person"></use></svg>
+                </div>    
+                <div class="modal-input-wrap">
+                    <label for="phone" ><span class="modal-label">Телефон</span></label>
+                    <input type="tel" class="input-mod" name="phone" id="phone">
+                    <svg class="icon-person" width="18px" height="18px"><use href="./images/symbol-defs.svg#icon-phone-modal"></use></svg>
+                </div>
+                <div class="modal-input-wrap">
+                    <label for="email" ><span class="modal-label"> Пошта</span></label>
+                    <input type="email" class="input-mod" name="email" id="email">
+                    <svg class="icon-person" width="18px" height="18px"><use href="./images/symbol-defs.svg#icon-email-modal"></use></svg>
+               </div>
+                 <div class="textarea-wrap">
+                    <label for="comment"><span class="modal-label">Коментар</span></label>
+                    <textarea class="comment" name="comment" id="comment" placeholder="Введіть текст"></textarea>
+                 </div>
+                 <div class="policy-wrap">
+                    <input type="checkbox" name="policy" class="policy visually-hidden" id="policy">
+                    <label for="policy" class="policy-label"><svg class="icon-check" width="16px" height="15px"><use href="./images/symbol-defs.svg#icon-check-nactive"></use></svg> <span class="policy-text">Погоджуюся з розсилкою та приймаю <a href="" class="policy-link link"> Умови договору</a></span></label>
+                </div>
+                <button type="submit" class="modal-submit-btn">Відправити</button>
+            </form>
             </div>
         </div>
 
