@@ -992,7 +992,7 @@ padding: 40px;
     
     
 
-    .policy:checked + label>svg{
+    .policy:checked + .policy-label>.icon-check{
         background-color: #2196f3;
         fill: transparent;
         border-radius: 2px;
